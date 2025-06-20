@@ -825,5 +825,5 @@ async def on_command_error(ctx, error):
         raise error
 
 keep_alive()
-bot.run(
-    'MTM4NTM1MTM3NDI5NTkyNDc0Nw.GV-mPF.yZ_dXpo5ms2oySji4PpXPIDO_ndJFInTMI6POk')
+import os
+bot.run(os.getenv('TOKEN'))
